@@ -1,0 +1,74 @@
+/* Write your CSS here. */
+/* 
+.wgs{
+    height: 241px;
+    position: relative;
+    display: inline-block;
+    width: 320px;
+    overflow: hidden;
+   
+}
+.wgs__mole-head{
+    position: absolute;
+    transition: 0.25s;
+    width: 188px;
+    height: 178px;
+    left: 55px;
+    transition: margin .5s linear;
+
+}
+
+.wgs__mole-head--hidden{
+    margin-top: 250px;
+}
+
+.wgs__mole-head--hit{
+    opacity: 0.1; /*does nothing*/
+
+/* }
+
+.wgs__dirt-pile{
+    position: absolute;
+    width: 320px;
+    height: 110px;
+    top: 131px;
+} */ 
+
+.pf{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.wgs{
+    height:  241px;
+    width: 320px;
+    display: inline-block;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.wgs__mole-head{
+    width: 188px;
+    height: 178px;
+    position: absolute;
+    left: 55px;
+    transition: margin .5s linear;
+    
+}
+.wgs__mole-head--hidden{
+    margin-top: 241px;
+}
+.wgs__mole-head--hit{
+    opacity: .1;
+}
+
+
+.wgs__dirt-pile{
+    width: 320px;
+    height: 110px;
+    position: absolute;
+    top: 131px;
+   
+} 
+
+
